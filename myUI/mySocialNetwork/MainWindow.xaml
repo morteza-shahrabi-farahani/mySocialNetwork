@@ -1,0 +1,188 @@
+﻿<Window x:Class="mySocialNetwork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mySocialNetwork"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    
+        <TabControl x:Name="myTabControl" Height="419" Margin="0,0,-0.4,0">
+            <TabItem Header="informations">
+            
+            <StackPanel Background="Purple">
+                <!-- description -->
+                <Border Padding="10">
+                    <TextBlock Text=" please check correct answers." FontSize="20" Foreground="White"/>
+                </Border>
+                <!-- checkBoxes and their related textBlocks -->
+                <Border Padding="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+
+                        </Grid.ColumnDefinitions>
+                                
+                        <TextBlock Text=" gender :" FontSize="10" Foreground="White"/>
+                        <CheckBox Content="male" Foreground="Yellow" Grid.Column="1"/>
+                        <CheckBox Content="female" Foreground="Yellow" Grid.Column="2"/>        
+                    </Grid>
+                </Border>
+
+                <!-- checkBoxes and their related textBlocks -->
+                <Border Padding="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text=" education :" FontSize="10" Foreground="White"/>
+                        <CheckBox Content="nothing" Foreground="Yellow" Grid.Column="1"/>
+                        <CheckBox Content="diploma" Foreground="Yellow" Grid.Column="2"/>
+                        <CheckBox Content="bachelor" Foreground="Yellow" Grid.Column="3"/>
+                        <CheckBox Content="MA" Foreground="Yellow" Grid.Column="4"/>
+                        <CheckBox Content="PHD" Foreground="Yellow" Grid.Column="5"/>
+                    </Grid>
+                </Border>
+
+                <!-- checkBoxes and their related textBlocks -->
+                <Border Padding="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text=" university :" FontSize="10" Foreground="White"/>
+                        <CheckBox Content="Governmental" Foreground="Yellow" Grid.Column="1"/>
+                        <CheckBox Content="private" Foreground="Yellow" Grid.Column="2"/>
+                        <CheckBox Content="Payame Noor" Foreground="Yellow" Grid.Column="3"/>
+                        <CheckBox Content="Azad" Foreground="Yellow" Grid.Column="4"/>
+                    </Grid>
+                </Border>
+                
+                <!-- slider -->
+                <Border Padding="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text=" choose where you live. " FontSize="10" Foreground="White"/>
+                        <ComboBox SelectedIndex="0" Padding="2" Grid.Column="2">
+                            <ComboBoxItem>Tehran</ComboBoxItem>
+                            <ComboBoxItem>Mashhad</ComboBoxItem>
+                            <ComboBoxItem>Esfahan</ComboBoxItem>
+                            <ComboBoxItem>Karaj</ComboBoxItem>
+                            <ComboBoxItem>Shiraz</ComboBoxItem>
+                            <ComboBoxItem>Tabriz</ComboBoxItem>
+                            <ComboBoxItem>Qom</ComboBoxItem>
+                            <ComboBoxItem>Ahvaz</ComboBoxItem>
+                            <ComboBoxItem>Kermanshah</ComboBoxItem>
+                            <ComboBoxItem>Oromieh</ComboBoxItem>
+                            <ComboBoxItem>Rasht</ComboBoxItem>
+                            <ComboBoxItem>Zahedan</ComboBoxItem>
+                            <ComboBoxItem>Kerman</ComboBoxItem>
+                            <ComboBoxItem>Yazd</ComboBoxItem>
+                            <ComboBoxItem>Ardebil</ComboBoxItem>
+                            <ComboBoxItem>Bandarabbas</ComboBoxItem>
+                            <ComboBoxItem>Arak</ComboBoxItem>
+                            <ComboBoxItem>Zanjan</ComboBoxItem>
+                            <ComboBoxItem>Sannandaj</ComboBoxItem>
+                            <ComboBoxItem>Qazvin</ComboBoxItem>
+                            <ComboBoxItem>Khoramabad</ComboBoxItem>
+                            <ComboBoxItem>Gorgan</ComboBoxItem>
+                            <ComboBoxItem>Sari</ComboBoxItem>
+                            <ComboBoxItem>Bojnord</ComboBoxItem>
+                            <ComboBoxItem>Boshehr</ComboBoxItem>
+                            <ComboBoxItem>Birjand</ComboBoxItem>
+                            <ComboBoxItem>Ilam</ComboBoxItem>
+                            <ComboBoxItem>Shahrekord</ComboBoxItem>
+                            <ComboBoxItem>Semnan</ComboBoxItem>
+                            <ComboBoxItem>Yasoj</ComboBoxItem>
+                            <ComboBoxItem>Hamedan</ComboBoxItem>
+                        </ComboBox>
+                    </Grid>
+                </Border>
+
+                <!-- buttons -->
+                <Border Padding="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Button Content="save" Margin="0 10 0 0" Grid.Column="0"></Button>
+                        <Button Content="reset" Margin="0 10 0 0" Grid.Column="2"></Button>
+                        <Button Content="load" Margin="0 10 0 0" Grid.Column="4"></Button>
+                    </Grid>
+                </Border>
+
+                <!-- description -->
+                <Border Padding="10">
+                    <TextBlock Text="If you have that would help us, please tell it here." FontSize="10" Foreground="White"/>
+                </Border>
+
+                <!-- description -->
+                <Border Padding="10">
+                    <TextBox  
+                        TextWrapping="Wrap"
+                        AcceptsReturn="True"
+                     >
+                    </TextBox>
+                </Border>
+
+                    <Border Padding="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="button"
+                                Content="next page" 
+                                Margin="0 10 0 0" Grid.Column="2"
+                                Click="button_Click">
+                        </Button>
+                                
+                    </Grid>
+                </Border>
+            </StackPanel>    
+                
+            </TabItem>
+            <TabItem Header="profile">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
+    
+</Window>

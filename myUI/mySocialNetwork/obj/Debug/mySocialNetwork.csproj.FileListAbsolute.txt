@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\bin\Debug\mySocialNetwork.exe.config
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\bin\Debug\mySocialNetwork.exe
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\bin\Debug\mySocialNetwork.pdb
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.csprojAssemblyReference.cache
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\App.g.cs
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork_MarkupCompile.cache
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork_MarkupCompile.lref
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.g.resources
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.Properties.Resources.resources
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.csproj.GenerateResource.cache
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.exe
+C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.pdb
