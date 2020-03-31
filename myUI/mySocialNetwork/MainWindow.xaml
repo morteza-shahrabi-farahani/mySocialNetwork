@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    
-        <TabControl x:Name="myTabControl" Height="419" Margin="0,0,-0.4,0">
-            <TabItem Header="informations">
-            
+
+    <TabControl x:Name="myTabControl" Height="419" Margin="0,0,-0.4,0">
+        <TabItem Header="informations">
+
             <StackPanel Background="Purple">
                 <!-- description -->
                 <Border Padding="10">
@@ -28,10 +28,10 @@
                             <ColumnDefinition Width="*" />
 
                         </Grid.ColumnDefinitions>
-                                
+
                         <TextBlock Text=" gender :" FontSize="10" Foreground="White"/>
                         <CheckBox Content="male" Foreground="Yellow" Grid.Column="1"/>
-                        <CheckBox Content="female" Foreground="Yellow" Grid.Column="2"/>        
+                        <CheckBox Content="female" Foreground="Yellow" Grid.Column="2"/>
                     </Grid>
                 </Border>
 
@@ -75,7 +75,7 @@
                         <CheckBox Content="Azad" Foreground="Yellow" Grid.Column="4"/>
                     </Grid>
                 </Border>
-                
+
                 <!-- slider -->
                 <Border Padding="10">
                     <Grid>
@@ -149,15 +149,15 @@
                 </Border>
 
                 <!-- description -->
-                <Border Padding="10">
-                    <TextBox  
-                        TextWrapping="Wrap"
-                        AcceptsReturn="True"
+                
+                    <TextBox Margin="10,0,10,0"
+                        TextWrapping="Wrap" Height="51"
+                        VerticalScrollBarVisibility="Visible"
                      >
                     </TextBox>
-                </Border>
+                
 
-                    <Border Padding="10">
+                <Border Padding="10">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
@@ -173,16 +173,63 @@
                                 Margin="0 10 0 0" Grid.Column="2"
                                 Click="button_Click">
                         </Button>
-                                
+
                     </Grid>
                 </Border>
-            </StackPanel>    
-                
-            </TabItem>
-            <TabItem Header="profile">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-        </TabControl>
+            </StackPanel>
+        
+        <!--second tab-->
+        </TabItem>
+        <TabItem Header="profile">
+            <StackPanel Background="Purple">
+                <Grid>
 
-    
+                </Grid>
+                <Image Height="100"/>
+                <TextBlock Margin="250,-80,400,50"
+                           Text="firstname : "
+                           Foreground="White"
+                           FontSize="20"/>
+
+                <TextBox Margin="350,-73,200,52"      
+                />
+                
+                <TextBlock Margin="250,-25,400,50"
+                           Text="lastname : "
+                           Foreground="White"
+                           FontSize="20"/>
+
+                <TextBox Margin="350,-70,200,50"      
+                />
+                
+                <TextBlock Margin="250,-20,450,50"
+                           Text="age : "
+                           Foreground="White"
+                           FontSize="20"/>
+
+                <TextBox Margin="300,-70,200,49"      
+                />
+                
+                <!--image-->
+                <Ellipse Height="193" Margin="20,-185,567,0">
+                    <Ellipse.Fill>
+                           <ImageBrush ImageSource="index11.png"></ImageBrush>
+                       </Ellipse.Fill>
+                </Ellipse>
+                
+                <!--equations-->
+                <TextBlock Margin="20,20,500,50"
+                           Text="equations : "
+                           Foreground="White"
+                           FontSize="20"/>
+
+                <TextBox Margin="20,-45,20,-50"
+                         Height="80"
+                         VerticalScrollBarVisibility="Visible"
+                         TextWrapping="Wrap"></TextBox>
+            </StackPanel>
+        </TabItem>
+    </TabControl>
+
+
 </Window>

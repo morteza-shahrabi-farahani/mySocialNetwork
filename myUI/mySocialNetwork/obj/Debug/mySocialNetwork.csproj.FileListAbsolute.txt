@@ -12,3 +12,17 @@ C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNet
 C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.csproj.GenerateResource.cache
 C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.exe
 C:\Users\User\source\repos\mySocialNetwork\mySocialNetwork\obj\Debug\mySocialNetwork.pdb
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\bin\Debug\mySocialNetwork.exe.config
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\bin\Debug\mySocialNetwork.exe
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\bin\Debug\mySocialNetwork.pdb
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\mySocialNetwork.csprojAssemblyReference.cache
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\MainWindow.g.cs
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\App.g.cs
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\mySocialNetwork_MarkupCompile.cache
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\mySocialNetwork_MarkupCompile.lref
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\MainWindow.baml
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\mySocialNetwork.g.resources
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\mySocialNetwork.Properties.Resources.resources
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\mySocialNetwork.csproj.GenerateResource.cache
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\mySocialNetwork.exe
+F:\APProject\mySocialNetwork\myUI\mySocialNetwork\obj\Debug\mySocialNetwork.pdb
